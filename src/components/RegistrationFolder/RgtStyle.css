@@ -1,0 +1,55 @@
+.registration {
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 109px;
+    padding: 20px;
+    height: 73.5vh;
+  }
+  
+  .registration h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 115px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group option{
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  label {
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+  }
+  
+  .success-message {
+    flex-direction: column;
+    color: green;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+     margin: 255px; 
+    margin-top: 287px;
+    margin-bottom: 287px; 
+    height:35vh;
+  }
+  
+  .success-message h3{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    
+  }

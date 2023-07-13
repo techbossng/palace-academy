@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+.facilities {
+  font-family: 'Exo 2', sans-serif;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  margin-top: 109px;
+  }
+  
+  .facilities h1 {
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 22px;
+    /* font-family: Oswald; */
+    font-weight: 900;
+    letter-spacing: 1.5rem;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    width: 100%;
+    max-width: 400px;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family: 'Exo 2', sans-serif;
+    /* font-weight: ; */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

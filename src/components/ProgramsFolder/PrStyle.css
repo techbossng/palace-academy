@@ -1,0 +1,57 @@
+.programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 109px;
+  }
+  
+  .programs h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5rem;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-left: 22px;
+    
+  }
+  
+  .program-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 0px;
+  }
+  
+  .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .program-details {
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
