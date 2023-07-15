@@ -27,14 +27,13 @@ const Navbar = () => {
           aria-controls="navbarNav"
           aria-expanded={isOpen}
           aria-label="Toggle navigation"
-          onClick={toggleMenu}
-        >
+          onClick={toggleMenu}>
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div
           className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
-          id="navbarNav"
-        >
+          id="navbarNav">
           <ul className="navbar-nav ml-auto ">
             <li className="nav-item">
               <Link to="/" className="nav-link" onClick={closeMenu}>
@@ -54,6 +53,11 @@ const Navbar = () => {
             <li className="nav-item">
               <Link to="/programs" className="nav-link" onClick={closeMenu}>
                 Programs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/videos" className="nav-link" onClick={closeMenu}>
+                Videos
               </Link>
             </li>
             <li className="nav-item">

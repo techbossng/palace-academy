@@ -2,6 +2,7 @@ import React from "react";
 import "./FtrStyle.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
+
 const Footer = () => {
   return (
     <footer className="footer footer-expand-lg navbar-light">

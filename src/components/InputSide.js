@@ -115,6 +115,10 @@ const InputSide = () => {
         <Input type="text" required placeholder="Allen Jones" value={name} onChange={nameHandler} />
       </InputWrapper>
       <InputWrapper>
+        <p>Address</p>
+        <Input type="text" required placeholder="123 John St, City, State." value={name} onChange={nameHandler} />
+      </InputWrapper>
+      <InputWrapper>
         <p>Email</p>
         <Input
           type="email"
@@ -129,13 +133,29 @@ const InputSide = () => {
         <Input
           type="tel"
           required
-          placeholder="+233546227893"
+          placeholder="+2349012345678"
           value={phone}
           onChange={phoneHandler}
         />
       </InputWrapper>
       <InputWrapper>
-        <p>Message</p>
+        <p>Date Of Birth</p>
+        <Input type="text" required placeholder="31/01/2000" value={name} onChange={nameHandler} />
+      </InputWrapper>
+      <InputWrapper>
+        <p>Position</p>
+        <Input type="text" required placeholder="Right Back" value={name} onChange={nameHandler} />
+      </InputWrapper>
+      <InputWrapper>
+        <p>Dominant Foot</p>
+        <Input type="text" required placeholder="Left" value={name} onChange={nameHandler} />
+      </InputWrapper>
+      <InputWrapper>
+        <p>Current Team</p>
+        <Input type="text" required placeholder="If Any" value={name} onChange={nameHandler} />
+      </InputWrapper>
+      <InputWrapper>
+        <p>Why do you want to join us</p>
         <MessageInput
           required
           placeholder="Write your message"

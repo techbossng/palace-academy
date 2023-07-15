@@ -5,7 +5,9 @@ import coach4 from "../../assets/coach4.png";
 import program1 from "../../assets/program1.jpg";
 import program3 from "../../assets/program3.jpg";
 import facility2 from "../../assets/facility2.jpg";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
+import YoutubeEmbed from "../VideosFolder/YoutubeEmbed";
+import "../VideosFolder/Youtubestyles.css"
 
 const Home = () => {
   return (
@@ -32,7 +34,24 @@ const Home = () => {
           Explore our website to learn more about our facilities, coaching
           staff, training programs, and upcoming events. Join us on this
           exciting journey of football excellence!
-        </p>
+        </p
+        >
+        <h1>Our Videos</h1>
+        <div className="video-links">
+          <div className="App">
+
+
+            <YoutubeEmbed embedId="Jfb8ayN5I7k?t=15" />
+
+          </div>
+          <div className="App">
+
+
+            <YoutubeEmbed embedId="DPTmmUK0kMA?t=30" />
+
+          </div>
+        </div>
+
       </div>
       <Link to="/programs">
         <div className="image-containers">
@@ -57,5 +76,7 @@ const Home = () => {
     </div>
   );
 };
+
+
 
 export default Home;

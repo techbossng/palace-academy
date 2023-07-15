@@ -3,6 +3,7 @@ import "./ChStyle.css";
 import coach1 from "../../assets/coach1.jpg";
 import coach2 from "../../assets/coach2.jpg";
 import coach3 from "../../assets/coach3.jpg";
+import coach4 from "../../assets/coach4.png"
 
 const Coaches = () => {
   const coachesData = [
@@ -32,7 +33,7 @@ const Coaches = () => {
       qualification: "AFC A License",
       experience: "8 years",
       specialty: "Player Development",
-      photo: coach2,
+      photo: coach4,
     },
   ];
 

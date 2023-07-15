@@ -1,0 +1,28 @@
+.video-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.video-links .App:hover {
+        transform: scale(1.1);
+}
+
+.video-links .App {
+
+    height: 50vh;
+    width: 60vh;
+}
+#root{
+    overflow: hidden;
+}
+
+@media only screen and (max-width:600px) {
+   .video-links .App {
+        
+        width: 45vh;
+        height: 30vh;
+    }
+}
