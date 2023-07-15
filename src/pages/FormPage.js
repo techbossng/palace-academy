@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import DetailsBar from '../DetailsBar';
-import InputSide from '../InputSide';
+import DetailsBar from '../components/DetailsBar';
+import InputSide from '../components/InputSide';
 
 const PageWrapper = styled.div`
   display: flex;

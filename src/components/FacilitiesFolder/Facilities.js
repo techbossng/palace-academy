@@ -1,8 +1,8 @@
-import React from 'react';
-import './FcStyle.css';
-import facility1Image from '../../assets/facility1.jpg';
-import facility2Image from '../../assets/facility2.jpg';
-import facility3Image from '../../assets/facility3.jpg';
+import React from "react";
+import "./FcStyle.css";
+import facility1Image from "../../assets/facility1.jpg";
+import facility2Image from "../../assets/facility2.jpg";
+import facility3Image from "../../assets/facility3.jpg";
 
 const Facilities = () => {
   return (

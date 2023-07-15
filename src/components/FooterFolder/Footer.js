@@ -1,6 +1,6 @@
-import React from 'react';
-import './FtrStyle.css';
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import "./FtrStyle.css";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,16 +9,25 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="social-icons">
-              <a href="https://www.facebook.com/palacesocceracademy"target = "_blank" 
-rel = "noopener noreferrer">
+              <a
+                href="https://www.facebook.com/palacesocceracademy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebook />
               </a>
-              <a href="https://instagram.com/palacefootballacademy?igshid=OGQ5ZDc2ODk2ZA=="target = "_blank" 
-rel = "noopener noreferrer">
+              <a
+                href="https://instagram.com/palacefootballacademy?igshid=OGQ5ZDc2ODk2ZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram />
               </a>
-              <a href="https://www.twitter.com/palacefa" target = "_blank" 
-rel = "noopener noreferrer">
+              <a
+                href="https://www.twitter.com/palacefa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTwitter />
               </a>
             </div>
@@ -38,7 +47,8 @@ rel = "noopener noreferrer">
           </div>
           <div className="col-md-12">
             <p className="footer-copy">
-              &copy; {new Date().getFullYear()} Palace Football Academy. All rights reserved.
+              &copy; {new Date().getFullYear()} Palace Football Academy. All
+              rights reserved.
             </p>
           </div>
         </div>

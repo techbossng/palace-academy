@@ -1,49 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* padding: 50px; */
-    padding-top: 50px;
-    margin-top: 56px;
-    background-color: rgb(189, 223, 225);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 50px; */
+  padding-top: 50px;
+  margin-top: 56px;
+  background-color: rgb(189, 223, 225);
+}
+
+.image-container {
+  /* display: ; */
+  width: 100%;
+  max-width: auto;
+}
+
+.image-containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+.image-containers img {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.image-containers img:hover {
+  transform: scale(1.2);
+}
+
+.image-description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: 2rem auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.image-description img {
+  width: 80%;
+}
+
+.image-description p {
+  font-size: 2rem;
+}
+img {
+  width: 100;
+  height: 50vh;
+  border-radius: 8px;
+  /* opacity: 0.6; */
+}
+
+.content {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.content h1 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 800;
+  /* font-size: 32px; */
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  .image-description {
+    grid-template-columns: repeat(1, 1fr);
   }
-  
-  .image-container {
-    /* display: ; */
-    width: 100%;
-    max-width: auto;
-  }
-  
-  img {
-    width: 100;
-    height: 50vh;
-    border-radius: 8px;
-    /* opacity: 0.6; */
-    
-  }
-  
-  .content {
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .content h1 {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 800;
-    /* font-size: 32px; */
-    margin-bottom: 20px;
-  }
-  
-  .content p {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    
-  }
-  
+}

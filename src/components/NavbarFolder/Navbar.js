@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './NavStyle.css';
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "./NavStyle.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +15,12 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-      <div className="container mx-2" style={{maxWidth: '1600px'}}>
+      <div className="container mx-2" style={{ maxWidth: "1600px" }}>
         <Link to="/" className="navbar-brand">
-          PALACE FOOTBALL  ACADEMY
+          PALACE FOOTBALL ACADEMY
         </Link>
         <button
-          className={`navbar-toggler ${isOpen ? 'collapsed' : ''}`}
+          className={`navbar-toggler ${isOpen ? "collapsed" : ""}`}
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -32,7 +31,10 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
+        <div
+          className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+          id="navbarNav"
+        >
           <ul className="navbar-nav ml-auto ">
             <li className="nav-item">
               <Link to="/" className="nav-link" onClick={closeMenu}>
