@@ -61,8 +61,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/about" className="nav-link" onClick={closeMenu}>
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/registration" className="nav-link" onClick={closeMenu}>
-                Registration
+                Join Us
               </Link>
             </li>
           </ul>
