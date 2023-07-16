@@ -55,11 +55,11 @@ const Navbar = () => {
                 Programs
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/videos" className="nav-link" onClick={closeMenu}>
-                Videos
-              </Link>
-            </li>
+            {/* <li className="nav-item"> */}
+              {/* <Link to="/videos" className="nav-link" onClick={closeMenu}> */}
+                {/* Videos */}
+              {/* </Link> */}
+            {/* </li> */}
             <li className="nav-item">
               <Link to="/about" className="nav-link" onClick={closeMenu}>
                 About Us

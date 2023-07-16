@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import DetailsBar from '../DetailsBar';
 import InputSide from '../InputSide';
+import Adsense from '../Adsense';
 
 const PageWrapper = styled.div`
   display: flex;
@@ -54,6 +55,9 @@ const FormPage = () => {
     <PageWrapper>
       <PageHeadingWrapper>
         <TextOne>Contact US</TextOne>
+        <div className="container-class-name">
+          <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
+        </div>
         <TextTwo>Any Question or remarks? Just write us a message</TextTwo>
       </PageHeadingWrapper>
       <FormContainer>

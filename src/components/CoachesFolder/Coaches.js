@@ -4,6 +4,7 @@ import coach1 from "../../assets/coach1.jpg";
 import coach2 from "../../assets/coach2.jpg";
 import coach3 from "../../assets/coach3.jpg";
 import coach4 from "../../assets/coach4.png"
+import Adsense from "../Adsense";
 
 const Coaches = () => {
   const coachesData = [
@@ -39,6 +40,9 @@ const Coaches = () => {
 
   return (
     <div className="coaches">
+      <div className="container-class-name">
+        <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
+      </div>
       <h1>OUR COACHES</h1>
       <div className="coach-list">
         {coachesData.map((coach, index) => (

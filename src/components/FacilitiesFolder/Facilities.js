@@ -3,10 +3,14 @@ import "./FcStyle.css";
 import facility1Image from "../../assets/facility1.jpg";
 import facility2Image from "../../assets/facility2.jpg";
 import facility3Image from "../../assets/facility3.jpg";
+import Adsense from "../Adsense";
 
 const Facilities = () => {
   return (
     <div className="facilities">
+      <div className="container-class-name">
+        <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
+      </div>
       <h1>FACILITIES</h1>
       <div className="facility">
         <img src={facility1Image} alt="Facility 1" />

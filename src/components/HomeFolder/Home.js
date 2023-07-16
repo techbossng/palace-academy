@@ -8,10 +8,14 @@ import facility2 from "../../assets/facility2.jpg";
 import { Link } from "react-router-dom"
 import YoutubeEmbed from "../VideosFolder/YoutubeEmbed";
 import "../VideosFolder/Youtubestyles.css"
+import Adsense from "../Adsense";
 
 const Home = () => {
   return (
     <div className="home">
+      <div className="container-class-name">
+        <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
+      </div>
       <div className="image-container">
         <img src={homeImage} alt="Football Academy" className="img-fluid" />
       </div>

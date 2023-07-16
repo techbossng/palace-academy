@@ -3,6 +3,7 @@ import "./PrStyle.css";
 import program1Image from "../../assets/program1.jpg";
 import program2Image from "../../assets/program2.jpg";
 import program3Image from "../../assets/program3.jpg";
+import Adsense from "../Adsense";
 
 const Programs = () => {
   const programsData = [
@@ -28,6 +29,9 @@ const Programs = () => {
 
   return (
     <div className="programs">
+      <div className="container-class-name">
+        <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
+      </div>
       <h1>OUR PROGRAMS</h1>
       <div className="program-list">
         {programsData.map((program, index) => (
