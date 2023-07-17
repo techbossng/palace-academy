@@ -1,15 +1,11 @@
 import React from "react";
 import "./FtrStyle.css";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import Adsense from "../Adsense";
 
 
 const Footer = () => {
   return (
     <footer className="footer footer-expand-lg navbar-light">
-      <div className="container-class-name">
-        <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
-      </div>
       <div className="container">
         <div className="row">
           <div className="col-md-12">

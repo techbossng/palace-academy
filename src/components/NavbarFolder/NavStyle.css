@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&display=swap");
 
 .navbar {
-  /* height: 90px; */
+  height: 155px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  background-color: teal;
+  background-color: gainsboro;
 }
 
 .navbar-brand {
@@ -13,7 +13,7 @@
   font-size: 24px;
   /* font-weight: bold; */
   line-height: 80px;
-  color: white;
+  color: black;
 }
 
 .navbar-toggler {
@@ -36,20 +36,35 @@
 
 .navbar-nav {
   margin-left: auto;
-  color: white;
+  color: black;
 }
 
 .nav-item {
   margin-right: 20px;
-  color: white;
+  color: black;
   font-family: "Exo 2", sans-serif;
 }
 
 .nav-link {
-  color: #ffffff;
+  color: black;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
   color: #555555;
+}
+
+.logo-image-containers {
+  width:10%;
+  margin:0rem auto;
+  
+}
+
+img .logo-image-containers {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  
 }

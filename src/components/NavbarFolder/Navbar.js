@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavStyle.css";
+import logo from '../../assets/pfa22.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">      
+      <div className="logo-image-containers">
+      <Link to="/" className="navbar-brand">
+        <img src={logo} alt="Football Academy" className="logo" />
+        </Link>
+      </div>
       <div className="container mx-2" style={{ maxWidth: "1600px" }}>
         <Link to="/" className="navbar-brand">
           PALACE FOOTBALL ACADEMY
@@ -56,9 +62,9 @@ const Navbar = () => {
               </Link>
             </li>
             {/* <li className="nav-item"> */}
-              {/* <Link to="/videos" className="nav-link" onClick={closeMenu}> */}
-                {/* Videos */}
-              {/* </Link> */}
+            {/* <Link to="/videos" className="nav-link" onClick={closeMenu}> */}
+            {/* Videos */}
+            {/* </Link> */}
             {/* </li> */}
             <li className="nav-item">
               <Link to="/about" className="nav-link" onClick={closeMenu}>

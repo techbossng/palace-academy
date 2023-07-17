@@ -53,11 +53,11 @@ const TextTwo = styled.p`
 const FormPage = () => {
   return (
     <PageWrapper>
-      <PageHeadingWrapper>
-        <TextOne>Contact US</TextOne>
-        <div className="container-class-name">
+      <div className="container-class-name">
           <Adsense style={{ display: "block", width: "1200px", height: "280px" }} slot="6098838326" />
         </div>
+      <PageHeadingWrapper>
+        <TextOne>Contact US</TextOne>        
         <TextTwo>Any Question or remarks? Just write us a message</TextTwo>
       </PageHeadingWrapper>
       <FormContainer>
