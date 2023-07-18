@@ -71,6 +71,11 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
+            {/* <li className="nav-item"> */}
+              {/* <Link to="/signUp" className="nav-link" onClick={closeMenu}> */}
+                {/* SignUp */}
+              {/* </Link> */}
+            {/* </li> */}
             <li className="nav-item">
               <Link to="/registration" className="nav-link" onClick={closeMenu}>
                 Join Us
