@@ -1,8 +1,8 @@
 import React from "react";
 import "./ChStyle.css";
 import coach1 from "../../assets/coach1.jpg";
-import coach2 from "../../assets/coach2.jpg";
-import coach3 from "../../assets/coach3.jpg";
+import coach5 from "../../assets/coach5.jpg";
+import coach6 from "../../assets/coach6.png";
 import coach4 from "../../assets/coach4.png"
 import Adsense from "../Adsense";
 
@@ -20,14 +20,14 @@ const Coaches = () => {
       qualification: "AFC A License",
       experience: "8 years",
       specialty: "Player Development",
-      photo: coach2,
+      photo: coach5,
     },
     {
       name: "Adesenwe Philp",
       qualification: "AFC A License",
       experience: "10 years",
       specialty: "Technical Skills",
-      photo: coach3,
+      photo: coach6,
     },
     {
       name: "Madueke Sunday",
