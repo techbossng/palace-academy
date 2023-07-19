@@ -31,12 +31,17 @@
   text-align: center;
 }
 
-img {
+.coach img {
   width: 100%;
-  max-width: 200px;
+  max-width: 400px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 8px;
   margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.coach img :hover{
+  transform: scale(1.2);
 }
 
 .coach-details {

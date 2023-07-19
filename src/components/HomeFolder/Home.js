@@ -1,6 +1,6 @@
 import React from "react";
 import "./HStyle.css";
-import homeImage from "../../assets/home-image.jpg";
+import homeImage from "../../assets/team.jpg";
 import coach4 from "../../assets/coach4.png";
 import program1 from "../../assets/program1.jpg";
 import program3 from "../../assets/program3.jpg";

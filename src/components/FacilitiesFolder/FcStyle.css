@@ -28,9 +28,9 @@
   text-align: center;
 }
 
-img {
+.facility img {
   width: 100%;
-  max-width: 400px;
+  max-width: 70%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 20px;

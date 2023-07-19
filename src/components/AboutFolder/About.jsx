@@ -34,9 +34,13 @@ const RightAbout = styled.div`
 const ImgAbout = styled.img`
     width: 30vw;
     height: 30vw;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 
     @media screen and (max-width:875px) {
         width: 20rem;
+        height:auto;
         margin-top: 1.5rem;
     }    
 `

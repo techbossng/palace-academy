@@ -3,11 +3,11 @@
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-    
+
 }
 
 .video-links .App:hover {
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .video-links .App {
@@ -15,13 +15,14 @@
     height: 50vh;
     width: 60vh;
 }
-#root{
+
+#root {
     overflow: hidden;
 }
 
 @media only screen and (max-width:600px) {
-   .video-links .App {
-        
+    .video-links .App {
+
         width: 45vh;
         height: 30vh;
     }
@@ -29,4 +30,12 @@
 
 .adsbygoogle {
     margin: 20px auto;
-  }
+}
+
+@media only screen and (max-width: 875px) {
+    .kqxzsB {
+        width: 23rem;
+        margin-top: 1.5rem;
+        height: auto;
+    }
+}
