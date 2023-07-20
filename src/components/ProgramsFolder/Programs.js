@@ -1,8 +1,8 @@
 import React from "react";
 import "./PrStyle.css";
-import program1Image from "../../assets/program1.jpg";
-import program2Image from "../../assets/program2.jpg";
-import program3Image from "../../assets/program3.jpg";
+import program1Image from "../../assets/program5.jpg";
+import program2Image from "../../assets/program6.jpg";
+import program3Image from "../../assets/program7.jpg";
 import Adsense from "../Adsense";
 
 const Programs = () => {

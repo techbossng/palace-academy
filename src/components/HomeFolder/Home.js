@@ -4,7 +4,7 @@ import homeImage from "../../assets/team.jpg";
 import coach4 from "../../assets/coach4.png";
 import program1 from "../../assets/program1.jpg";
 import program3 from "../../assets/program3.jpg";
-import facility2 from "../../assets/facility2.jpg";
+import facility2 from "../../assets/program5.jpg";
 import { Link } from "react-router-dom"
 import YoutubeEmbed from "../VideosFolder/YoutubeEmbed";
 import "../VideosFolder/Youtubestyles.css"

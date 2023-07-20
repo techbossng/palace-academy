@@ -2,7 +2,7 @@ import React from "react";
 import "./FcStyle.css";
 import facility1Image from "../../assets/facility5.jpg";
 import facility2Image from "../../assets/facility4.jpg";
-import facility3Image from "../../assets/facility3.jpg";
+import facility3Image from "../../assets/gym.jpg";
 import Adsense from "../Adsense";
 
 const Facilities = () => {
