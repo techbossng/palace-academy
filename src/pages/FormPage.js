@@ -54,7 +54,7 @@ const FormPage = () => {
     <PageWrapper>
       <PageHeadingWrapper>
         <TextOne>Contact US</TextOne>
-        <TextTwo>Any Question or remarks? Just write us a message</TextTwo>
+        <TextTwo>Any Questions or remarks? Just write us a message</TextTwo>
       </PageHeadingWrapper>
       <FormContainer>
         <DetailsBar />
