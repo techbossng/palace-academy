@@ -16,8 +16,8 @@ This is a frontend project for a Football Academy website built using React.js. 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/football-academy-website.git`
-2. Change to the project directory: `cd football-academy-website`
+1. Clone the repository: `git clone https://github.com/techbossng/palace-academy.git`
+2. Change to the project directory: `cd palace-academy.git`
 3. Install dependencies: `npm install`
 
 ## Usage
